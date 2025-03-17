@@ -5,7 +5,7 @@
 - Our "requirements.txt" and "Dockerfile" are updated (consists of necessary: uvicorn//gunicorn//python-multipart//etc.)
 
 -------------------------------------------------------------------------------------------------------------------------
-                                                 PROJECTFLOW: 
+                                        PROJECTFLOW i.e. (Render Deployment flow): 
 
 1. Go to Render Dashboard and Sign in/Sign up >> go through EMAIL verification >>  entered into My Workspace.
 
