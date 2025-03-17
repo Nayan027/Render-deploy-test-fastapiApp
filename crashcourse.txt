@@ -1,0 +1,46 @@
+------------------------------------------------------------------------------------------------------------------------
+🔹 First and foremost - In case of errors in Deployment:
+
+- read through the logs.
+- copy and paste it to gpt or any other llm to simplify problem and then solution.
+- most probably the errors are to do with either ;
+
+a. requirements.txt : necessary modules/ packages not mentioned such as uvicorn//gunicorn//etc.
+b. dockerfile       : image not built right in accordance with the web-app we've used.
+
+:
+Now looking how this point (b) is important ;
+- The CMD in your Dockerfile changes depending on whether you're using FastAPI or Flask.
+- Since FastAPI is an ASGI framework, you need "uvicorn", which is designed to handle ASGI apps.
+- Since Flask is a WSGI framework, it works better with "gunicorn".
+
+note: ASGI (Asynchronous Server Gateway Interface) and WSGI (Web Server Gateway Interface) are server interfaces 
+that define how a web framework communicates with a web server.   For further info read documentation.
+
+
+
+------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------
+
+🔹 In Render Dashboard >> "Projects" section provides an overview of all the projects we're or we've worked on.
+"Ungrouped Services" in this overview section shows all our services:
+
+a. Active(maybe successfully deployed or failed deploy )
+b. Suspended
+c. All
+
+
+
+
+🔹 On Clicking any of Service Names from the "Ungrouped Services" >> we're led to another interface that informs 
+us about the Initiation of this deployment action and it's current state i.e. Active//Suspended//Fail Deploy,
+these come under the category called "Events" for that particular web service.
+
+- and on clicking on "Settings" >> we can modify changes such as Name/ Region/ Instance Type and moreover,
+we can choose to "Suspend Web Service" or even "Delete Web Service" permanently after verifying.
+
+
+
+
+
+
