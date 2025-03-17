@@ -1,0 +1,36 @@
+🚀 ASSUMPTIONS:
+
+- We've successfully built our app and tested on our localhost i.e. PORT = 5000//8080//8080//etc. 
+
+- Our "requirements.txt" and "Dockerfile" are updated (consists of necessary: uvicorn//gunicorn//python-multipart//etc.)
+
+-------------------------------------------------------------------------------------------------------------------------
+                                                 PROJECTFLOW: 
+
+1. Go to Render Dashboard and Sign in/Sign up >> go through EMAIL verification >>  entered into My Workspace.
+
+2. Go to "+ New" button and click >> select "Web Services".
+
+3.a. When connecting github the very first time;
+  -  Add either all your repos by giving permission or select a particular repository from github to actively work on.
+
+3.b. During initial connection, if you've allowed only one repo and later want to access another repo as a new project;
+  - select "Public Git Repository" and provide the corresponding repo's link.
+
+4. Next step is to click on "Connect" >> Name your Web Service.
+
+5. Choose "Docker" as language >> let the "main" Branch be as it is >> no compulsion in picking a "Region". 
+
+6. "Root Directory" is optional, so let it be.
+
+7. choose "Free" Instance Type i.e. For Hobby Projects.
+
+8. Lastly, click on "Deploy Web Services". 
+
+- Now, we wait for the entire process to unfold and see through the log msgs on our screen.
+
+- on successful deployment the sign changes from "building" to "live" and we can click on the % LINK % 
+  provided {below the Name of our Web Service} to see our project live on render.com 
+
+
+- In case of errors or to know more about render, refer to "crashcourse.txt"
