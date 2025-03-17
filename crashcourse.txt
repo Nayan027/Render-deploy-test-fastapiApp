@@ -41,6 +41,22 @@ we can choose to "Suspend Web Service" or even "Delete Web Service" permanently 
 
 
 
+------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------
+
+NOTE: sometimes when everything is right with your project the deployment might take time and give the same
+log-message over and over again such as ;
+
+==> Your service is live 🎉
+==> Detected a new open port HTTP:8000
+
+In such cases try moving to inspect All Services i.e. "Ungrouped Services", there we are most likely to find 
+our web service's status = Deployed i.e. it is up and running and now we can go to the live link and verify.
+
+
+
+
+
 
 
 
