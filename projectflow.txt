@@ -23,9 +23,11 @@
 
 6. "Root Directory" is optional, so let it be.
 
-7. choose "Free" Instance Type i.e. For Hobby Projects.
+7. Choose "Free" Instance Type i.e. For Hobby Projects.
 
-8. Lastly, click on "Deploy Web Services". 
+8. Provide the environmental variable-credentials i.e {AWS_ACCESS_KEY_ID} & {AWS_SECRET_ACCESS_KEY}
+
+9. Lastly, click on "Deploy Web Services". 
 
 - Now, we wait for the entire process to unfold and see through the log msgs on our screen.
 

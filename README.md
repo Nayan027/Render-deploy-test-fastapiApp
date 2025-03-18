@@ -1,4 +1,5 @@
-# Render-deploy-test-fastapiApp
+# Render-deploy-test-FastapiApp
+This is a basic test project to test a new serverless deployment method using Render.
 
 ## 🚀 Render: A Serverless Cloud Platform
 Render is a cloud platform that automates deployment, scaling, and management of web applications, APIs, and databases. It provides a serverless-like experience but still runs on servers in the background.
